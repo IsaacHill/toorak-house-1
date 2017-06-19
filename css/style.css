@@ -1,0 +1,101 @@
+.gallary {
+
+	 display: inline-flex;
+	 width:100%;
+	 max-width:2896px;
+ }
+
+ body {
+	 color:white;
+ }
+
+
+ .gallary .imgHolder {
+	 width:33%;
+	 overflow: hidden;
+		position: relative;
+		transition: 1s;
+		border: 1px solid black;
+		height:720px;
+ }
+ .gallary .imgHolder:hover {
+	 /*width:100%;*/
+ }
+
+.main-title {
+	font-family: 'Monoton', cursive;
+}
+.gallary .imgHolder#pic1:hover{
+    width:1086px;
+}
+.gallary .imgHolder#pic1{
+    max-width:1086px;
+}
+.gallary .imgHolder#pic2:hover{
+     width:724px;
+}
+.gallary .imgHolder#pic2{
+    max-width:724px;
+}
+.gallary .imgHolder#pic3:hover{
+    width:1086px
+}
+.gallary .imgHolder#pic3{
+    max-width:1086px;
+}
+
+.main-title {
+	position:absolute;
+	top:30%;
+	width:100%;
+	text-align: center;
+	pointer-events: none;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-container .list {
+    display: inline-block;
+    text-align: left;
+	list-style: none;
+	padding:0
+}
+
+.footer-container .header {
+    display: inline-block;
+    vertical-align: top;
+	padding-right: 10px;
+}
+
+.bg-img {
+	min-height: 100% !important;
+    background-position: center !important;
+    background-size: cover !important;
+	
+}
+
+#location {
+	background-image: url(../assets/dark_map.png) !important;
+}
+
+#furnishing {
+	background-image: url(../assets/gray_livingRoom1.png) !important;
+}
+
+.pastel-black {
+	background-color: #433f40;
+	color:white;
+
+}
+
+#rotating {
+	background-color:#4f4f4f;
+}
+
+
+ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-map-marker,.fa-bed {font-size:200px !important}
