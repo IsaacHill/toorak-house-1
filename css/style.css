@@ -11,7 +11,7 @@
 
 
  .gallary .imgHolder {
-	 width:33%;
+	 width:50%;
 	 overflow: hidden;
 		position: relative;
 		transition: 1s;
@@ -78,21 +78,25 @@
 }
 
 #location {
-	background-image: url(../assets/dark_map.png) !important;
+	background-image: url(../assets/color_map.png) !important;
 }
 
 #furnishing {
-	background-image: url(../assets/gray_livingRoom1.png) !important;
+	background-image: url(../assets/color_livingRoom.png) !important;
 }
 
 .pastel-black {
-	background-color: #433f40;
+	background-color:#0455ce;
 	color:white;
 
 }
 
 #rotating {
-	background-color:#4f4f4f;
+	background-color:#0455ce;
+}
+
+.background-white {
+	background-color:white
 }
 
 
