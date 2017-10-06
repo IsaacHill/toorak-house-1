@@ -82,11 +82,11 @@
 }
 
 #furnishing {
-	background-image: url(../assets/color_livingRoom.png) !important;
+	background-image: url(../assets/window_color.jpg) !important;
 }
 
 .pastel-black {
-	background-color:#0455ce;
+	background-color:#1a63d1;
 	color:white;
 
 }
@@ -103,3 +103,61 @@
  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-map-marker,.fa-bed {font-size:200px !important}
+
+
+.slick-prev:before, .slick-next:before {
+		font-size:40px !important;
+		position:absolute !important;
+	}
+
+	.slick-prev:before {
+		top: -22px;
+	}
+
+.slick-prev, .slick-next {
+		font-size:40px !important;
+	}
+
+
+@media (max-width: 1086px) {
+
+		.slick-prev {
+		display: block !important;
+		left: 30% !important;
+		top:105%!important;
+	}
+
+		.slick-next {
+		display: block !important;
+		right: 30% !important;
+		top:105%!important;
+	}
+	.slick-prev:before,  .slick-next:before{
+		font-size:50px !important;
+	}
+}
+@media (max-width: 600px) {
+	.gallary .imgHolder#pic3 {
+		display: none;
+	}
+
+	.gallary .imgHolder#pic2 {
+		display: none;
+	}
+
+	.gallary .imgHolder#pic1{
+    	width:100%;
+	}
+	.gallary .imgHolder#pic1:hover{
+    	width:100%;
+	}
+
+	.main-title {
+		font-size: 52px !important;
+		width:auto;
+	}
+
+
+
+
+ }
